@@ -1,0 +1,357 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat{\fonttbl{\f0\fnil\fcharset0 Courier New;}{\f1\fnil\fcharset204 Courier New;}}
+{\*\generator Riched20 10.0.14393}\viewkind4\uc1 
+\pard\f0\fs22\lang1033\par
+\par
+\f1\lang1049\tab\tab\'df\'e7\'fb\'ea \'ef\'f0\'ee\'e3\'f0\'e0\'ec\'ec\'e8\'f0\'ee\'e2\'e0\'ed\'e8\'ff \f0\lang1033 Veles.  \f1\lang1049\'c2\'e5\'f0\'f1\'e8\'ff 0.01.\par
+15.01.2022 \'e3.\par
+\par
+\'df\'e7\'fb\'ea \'f1\'ee\'e7\'e4\'e0\'ed \'e2 2022 \'e3\'ee\'e4\'f3, \'e0\'e2\'f2\'ee\'f0 \'d0\'fb\'e1\'ee\'f7\'ea\'e8\'ed \'c0\'eb\'e5\'ea\'f1\'e5\'e9.\par
+\par
+\'c0\'e2\'f2\'ee\'f0, \'ef\'f0\'ee\'e3\'f0\'e0\'ec\'ec\'e8\'f1\'f2 \'eb\'fe\'e1\'e8\'f2\'e5\'eb\'fc.\par
+
+\pard\qj\par
+\f0\lang1033\tab\f1\lang1049\'df\'e7\'fb\'ea \'e1\'fb\'eb \'ed\'e0\'ef\'e8\'f1\'e0\'ed \'ea\'e0\'ea \'f3\'f7\'e5\'e1\'ed\'fb\'e9, \'ed\'ee \'f1 \'f5\'ee\'f0\'ee\'f8\'e8\'ec \'ef\'f0\'e5\'e8\'ec\'f3\'f9\'e5\'f1\'f2\'e2\'ee\'ec \'ef\'e5\'f0\'e5\'e4 \'e8\'ed\'fb\'ec\'e8 \'ff\'e7\'fb\'ea\'e0\'ec\'e8, \'f2.\'ea., \'e7\'e0\'e4\'f3\'ec\'fb\'e2\'e0\'eb\'f1\'ff \'ee\'e4\'ed\'ee\'e2\'f0\'e5\'ec\'e5\'ed\'ed\'ee \'f1 \'f2\'f0\'e5\'ec\'ff \'ee\'f1\'ed\'ee\'e2\'ed\'fb\'ec\'e8 \'ea\'ee\'ec\'ef\'ee\'ed\'e5\'ed\'f2\'e0\'ec\'e8, \'f2\'f0\'e0\'ed\'f1\'eb\'ff\'f2\'ee\'f0, \'ea\'ee\'ec\'ef\'e8\'eb\'ff\'f2\'ee\'f0 \'e2 \f0\lang1033 WIn32\f1\lang1049 , \'e0 \'f2\'e0\'ea\'e6\'e5 \'e2\'e8\'f0\'f2\'f3\'e0\'eb\'fc\'ed\'e0\'ff \'ec\'e0\'f8\'e8\'ed\'e0 \'ed\'e0\'ef\'ee\'e4\'ee\'e1\'e8\'e5 \f0\lang1033 Java.\f1\lang1049  \par
+\par
+\f0\lang1033\tab\f1\lang1049\'c2 \'ee\'f1\'ed\'ee\'e2\'ed\'ee\'ec \'e2 \'ff\'e7\'fb\'ea \'e1\'fb\'eb\'e8 \'e2\'e7\'ff\'f2\'fb \'f1\'e8\'ed\'f2\'e0\'ea\'f1\'e8\'f7\'e5\'f1\'ea\'e8\'e5 \'ea\'ee\'ed\'f1\'f2\'f0\'f3\'ea\'f6\'e8\'e8 \'ff\'e7\'fb\'ea\'e0 \'d1, \'ea\'e0\'ea \'f1\'e0\'ec\'ee\'e3\'ee \'ef\'ee\'ef\'f3\'eb\'ff\'f0\'ed\'ee\'e3\'ee \'e8 \'ec\'e0\'eb\'ee\'f1\'eb\'ee\'e2\'ed\'ee\'e3\'ee \'e8\'e7 \'e2\'f1\'e5\'f5.\par
+\par
+\tab\'c7\'e0\'e4\'f3\'ec\'fb\'e2\'e0\'eb\'f1\'ff \'ea\'e0\'ea \'f3\'f7\'e5\'e1\'ed\'fb\'e9 \'ed\'ee \'f1 \'e1\'ee\'eb\'fc\'f8\'e8\'ec \'e7\'e0\'e4\'e5\'eb\'ee\'ec \'ed\'e0 \'e1\'f3\'e4\'f3\'f9\'e5\'e5\f0\lang1033 .\f1\lang1049\par
+\par
+\par
+\tab\tab\tab\'d2\'f0\'e0\'ed\'f1\'eb\'ff\'f2\'ee\'f0.\par
+\par
+\f0\lang1033 Veles -help \par
+\par
+My program compilator\par
+-Help - to view this window\par
+-S, -s - to make Assembler list\par
+-O, -o - to make Object list\par
+-H, -h - to make HEX listing  \\n");\par
+End of help window.......\par
+\par
+\par
+\tab\f1\lang1049\'c2 \'ff\'e7\'fb\'ea \'e2\'f5\'ee\'e4\'ff\'f2 \'f1\'eb\'e5\'e4\'f3\'fe\'f9\'e8\'e5 \'f1\'eb\'f3\'e6\'e5\'e1\'ed\'fb\'e5 \'f1\'eb\'ee\'e2\'e0:\par
+\par
+\f0\lang1033 Program,  start, End, func, sizeof, asm, mem, nel\par
+\par
+\par
+\f1\lang1049\'c1\'cd\'d4:\par
+\par
+\f0\lang1033 // \f1\lang1049\'ea\'ee\'ec\'ec\'e5\'ed\'f2\'e0\'f0\'e8\'e9\par
+\par
+\f0\lang1033 Program Name_of_program\f1\lang1049    // \'ed\'e0\'e7\'e2\'e0\'ed\'e8\'e5 \'ef\'f0\'ee\'e3\'f0\'e0\'ec\'ec\'fb, \'ed\'e5\'ee\'e1\'ff\'e7\'e0\'f2\'e5\'eb\'fc\'ed\'ee\f0\lang1033\par
+\f1\lang1049\par
+\f0\lang1033 start func() // \f1\lang1049\'c3\'cb\'c0\'c2\'cd\'c0\'df \'f4\'f3\'ed\'ea\'f6\'e8\'ff \'ef\'f0\'ee\'e3\'f0\'e0\'ec\'ec\'fb, \'ef\'ee\'e4\'ee\'e1\'e8\'e5 \f0\lang1033 Main \f1\lang1049\'e2 \'d1\'c8.\f0\lang1033\par
+\par
+mem int z, x\f1\lang1049   // \f0\lang1033 Mem \f1\lang1049\'e3\'eb\'e0\'e2\'e0 \'ee\'e1\'fa\'ff\'e2\'eb\'e5\'ed\'e8\'ff \'ef\'e5\'f0\'e5\'ec\'e5\'ed\'ed\'fb\'f5 \'e8 \'f1\'f2\'f0\'f3\'ea\'f2\'f3\'f0.\f0\lang1033\par
+\par
+mem char a\f1\lang1049   // \'cf\'e5\'f0\'e2\'ee\'e5 \'ee\'ef\'e8\'f1\'e0\'ed\'e8\'e5 \'ce\'c1\'df\'c7\'c0\'d2\'c5\'cb\'dc\'cd\'ce, \'ef\'ee\'f2\'ee\'ec \'ed\'e5\'f2.\par
+\par
+// \'c2 \'e2\'e5\'f0\'f1\'e8\'e8 0.01 \'ef\'ee\'e4\'e4\'e5\'f0\'e6\'e8\'e2\'e0\'fe\'f2\'f1\'ff \'f2\'ee\'eb\'fc\'ea\'ee \'f2\'e8\'ef\'fb \f0\lang1033 int \f1\lang1049\'e8 \f0\lang1033 char\par
+// \f1\lang1049\'ca\'ee\'ec\'ec\'e5\'ed\'f2\'e0\'f0\'e8\'e9 \'d2\'ce\'cb\'dc\'ca\'ce \'ee\'e4\'ed\'ee\'f1\'f2\'f0\'ee\'f7\'ed\'fb\'e9.\f0\lang1033\par
+\par
+    int q\f1\lang1049    // \'f6\'e5\'eb\'ee\'f7\'e8\'f1\'eb\'e5\'ed\'ed\'fb\'e9 \'f2\'e8\'ef\f0\lang1033\par
+ \par
+    write('Hello', z, x)\par
+\par
+\f1\lang1049 // \f0\lang1033 write \f1\lang1049\'e2\'fb\'e2\'ee\'e4 \'e2 \'f2\'e5\'f0\'ec\'e8\'ed\'e0\'eb\f0\lang1033\par
+\par
+\par
+End\f1\lang1049 .\f0\lang1033\par
+\f1\lang1049\par
+// \'ce\'ea\'ee\'ed\'f7\'e0\'ed\'e8\'e5 \f0\lang1033 start func - \f1\lang1049\'f2\'ee\'eb\'fc\'ea\'ee \'f1 \f0\lang1033 End. \f1\lang1049\'c2\'f1\'e5\'e3\'e4\'e0 \'e2 \'d2\'ee\'f7\'ea\'ee\'e9 \'ed\'e0 \par
+// \'ea\'ee\'ed\'f6\'e5, \'c1\'c5\'c7 \'f2\'ee\'f7\'ea\'e8 \'ee\'ea\'e0\'ed\'f7\'e8\'e2\'e0\'fe\'f2\'f1\'ff \'f2\'ee\'eb\'fc\'ea\'ee \'ee\'e1\'fb\'f7\'ed\'fb\'e5 \'f4\'f3\'ed\'ea\'f6\'e8\'e8\par
+\par
+\tab\'c2\'d1\'c5 \'e4\'ee\'ef\'ee\'eb\'ed\'e8\'f2\'e5\'eb\'fc\'ed\'fb\'e5 \'f4\'f3\'ed\'ea\'f6\'e8\'e8 \'ee\'ef\'e8\'f1\'fb\'e2\'e0\'fe\'f2\'f1\'ff \'d1\'d2\'d0\'ce\'c3\'ce \'e2\'ef\'e5\'f0\'e5\'e4\'e8, \'e4\'ee \f0\lang1033 start func(),  \f1\lang1049\'cd\'ee \'ef\'ee\'f1\'eb\'e5 \f0\lang1033 Program\f1\lang1049 , \f0\lang1033 Program \f1\lang1049\'ec\'ee\'e6\'e5\'f2 \'e8 \'ed\'e5 \'e1\'fb\'f2\'fc.\par
+\par
+\par
+\tab\'d0\'e0\'e7\'ed\'e8\'f6\'fb \'ec\'e5\'e6\'e4\'f3 \'d4\'f3\'ed\'ea\'f6\'e8\'ff\'ec\'e8 \'e8 \'cf\'f0\'ee\'f6\'e5\'e4\'f3\'f0\'e0\'ec\'e8 \'ed\'e5\'f2.\par
+\par
+\'d4\'f3\'ed\'ea\'f6\'e8\'ff \'eb\'fe\'e1\'e0\'ff \'ee\'ef\'e8\'f1\'fb\'e2\'e0\'e5\'f2\'f1\'ff \'d2\'e0\'ea:\par
+\par
+\f0\lang1033 start name_of_function()\par
+end\par
+\par
+// \f1\lang1049\'dd\'f2\'ee \'ef\'f3\'f1\'f2\'e0\'ff \'f4\'f3\'ed\'ea\'f6\'e8\'ff.\f0\lang1033\par
+\f1\lang1049\par
+\par
+\f0\lang1033 start name_of_function()\par
+   Write('Hello world')\par
+end\par
+// \f1\lang1049\'d2\'e0\'ea \'f4\'f3\'ed\'ea\'f6\'e8\'ff \'e2\'fb\'e2\'ee\'e4\'e8\'f2 \f0\lang1033 Hello World\par
+\par
+\par
+\tab\f1\lang1049\'c2 \'ff\'e7\'fb\'ea\'e5 \'e8\'e4\'e5\'f2 \'ef\'ee\'eb\'e8\'f2\'e8\'ea\'e0 \'f3\'ec\'e5\'ed\'fc\'f8\'e5\'ed\'e8\'ff \'ec\'e0\'eb\'e5\'ed\'fc\'ea\'e8\'f5 \'f1\'e8\'ec\'e2\'ee\'eb\'ee\'e2, \'d2\'ee\'f7\'ea\'e0 \'f2\'ee\'eb\'fc\'ea\'ee \'e2 \'ea\'ee\'ed\'f6\'e5 \'ef\'f0\'ee\'e3\'f0\'e0\'ec\'ec\'fb,  \'c7\'e0\'ef\'ff\'f2\'fb\'e5 \'f2\'ee\'eb\'fc\'ea\'ee \'e2 \f0\lang1033 Write()\par
+\par
+\tab\f1\lang1049\'c2\'d1\'c5 \'f4\'f3\'ed\'ea\'f6\'e8\'e8 \'ef\'e8\'f8\'f3\'f2\'f1\'ff \'f1\'ee \'f1\'ea\'ee\'e1\'ee\'f7\'ea\'e0\'ec\'e8 - \f0\lang1033 Function()\par
+\par
+Start Hello()\par
+End\par
+\par
+\f1\lang1049                   \'ce\'ef\'e8\'f1\'e0\'ed\'e8\'e5 \'cf\'f0\'ee\'e3\'f0\'e0\'ec\'ec\'fb \'f1 \'d4\'f3\'ed\'ea\'f6\'e8\'e5\'e9...\par
+\par
+\f0\lang1033 Program My_name\par
+start name_of_function()\par
+   Write('Hello world')\par
+end\par
+\f1\lang1049\par
+\f0\lang1033 start func() \par
+mem int z, x\f1\lang1049  \par
+\f0\lang1033     char ch\f1\lang1049\par
+\f0\lang1033 write('Hello', z, x)\par
+name_of_function()\par
+End\f1\lang1049 .\f0\lang1033\par
+\f1\lang1049\par
+\f0\lang1033     \f1\lang1049\'dd\'f2\'e0 \'ef\'f0\'ee\'e3\'f0\'e0\'ec\'ec\'fb \'e2\'fb\'e2\'e5\'e4\'e5\'f2 \'ed\'e0 \'fd\'ea\'f0\'e0\'ed:\par
+\par
+\f0\lang1033 Hello 0 0\par
+Hello world\par
+\par
+\tab\f1\lang1049\'cd\'ce\'cb\'c8 \'ef\'ee\'f1\'eb\'e5 \f0\lang1033 Hello \f1\lang1049\'e2\'fb\'e2\'e5\'e4\'e5\'ed\'fb, \'f2.\'ea., \'df\'e7\'fb\'ea \'e0\'e2\'f2\'ee\'ec\'e0\'f2\'e8\'f7\'e5\'f1\'ea\'e8 \'f1\'ee\'e7\'e4\'e0\'e5\'f2 \'e8\'ed\'e8\'f6\'e8\'e0\'eb\'e8\'e7\'e8\'f0\'f3\'e5\'f2 \'e1\'e5\'e7\'ee\'ef\'e0\'f1\'ed\'fb\'e5 \'e4\'e0\'ed\'ed\'fb\'e5. \'cd\'ce\'cb\'c8 \'e2\'f1\'e5\'e7\'e4\'e5, \'e8 \'e2 \f0\lang1033 Int \f1\lang1049\'e8 \'e2 \f0\lang1033 Char.\par
+\par
+\par
+\tab\tab\f1\lang1049\'ce\'ef\'e5\'f0\'e0\'f2\'ee\'f0\'fb \'e8 \'ef\'f0\'e8\'f1\'e2\'e0\'e8\'e2\'e0\'ed\'e8\'e5\par
+\par
+\'ce\'ef\'e5\'f0\'e0\'f2\'ee\'f0 \'f0\'e0\'e2\'e5\'ed\'f1\'f2\'e2\'e0 =\par
+\par
+\'ce\'ef\'e5\'f0\'e0\'f2\'ee\'f0 \'ed\'e5\'f0\'e0\'e2\'e5\'ed\'f1\'f2\'e2\'e0 \f0\lang1033 !=\f1\lang1049\par
+\par
+\'ce\'ef\'e5\'f0\'e0\'f2\'ee\'f0 \'ef\'f0\'e8\'f1\'e2\'e0\'e8\'e2\'e0\'ed\'e8\'ff ==\par
+\par
+\'c1\'ee\'eb\'fc\'f8\'e5 \f0\lang1033 >   \f1\lang1049\'cc\'e5\'ed\'fc\'f9\'e5  \f0\lang1033 <\par
+\par
+\f1\lang1049\'cf\'f0\'e8\'e1\'e0\'e2\'eb\'e5\'ed\'e8\'e5 +\par
+\par
+\'c2\'fb\'f7\'e8\'f2\'e0\'ed\'e8\'e5 - \par
+\par
+\'d3\'ec\'ed\'ee\'e6\'e5\'ed\'e8\'e5 *\par
+\par
+\'c4\'e5\'eb\'e5\'ed\'e8\'e5 /\par
+\par
+\par
+\par
+\tab\'d3\'ea\'e0\'e7\'e0\'f2\'e5\'eb\'e8 \'e8 \'e2\'e7\'ff\'f2\'e8\'e5 \'e0\'e4\'f0\'e5\'f1\'e0\par
+\par
+\'c2 \'e2\'e5\'f0\'f1\'e8\'e8  0.01 \'ee\'f2\'f1\'f3\'f2\'f1\'e2\'f3\'fe\'f2, \'ed\'ee\'e4\'e5\'fe\'f1\'fc \'ef\'ee\'ff\'e2\'ff\'f2\'f1\'ff \'ef\'ee\'f2\'ee\'ec.\par
+\par
+\par
+     \'cc\'e0\'f1\'f1\'e8\'e2\'fb \'e8 \'f1\'f2\'f0\'f3\'ea\'f2\'fb \'e8 \'ce\'ce\'cf\par
+\par
+\'c2 \'e2\'e5\'f0\'f1\'e8\'e8  0.01 \'ee\'f2\'f1\'f3\'f2\'f1\'e2\'f3\'fe\'f2, \'ed\'ee\'e4\'e5\'fe\'f1\'fc \'ef\'ee\'ff\'e2\'ff\'f2\'f1\'ff \'ef\'ee\'f2\'ee\'ec.\par
+\par
+\par
+\par
+\tab\tab\tab\f0\lang1033 Sizeof\par
+\par
+mem int z   // 0 \f1\lang1049\'ef\'f0\'e8 \'ee\'e1\'ff\'e2\'eb\'e5\'ed\'e8\'e8.\par
+\par
+\par
+\f0\lang1033 Program My_name\par
+start func() \par
+mem int z, x\f1\lang1049  \par
+\f0\lang1033     char ch\par
+\par
+z == 5\par
+\par
+x == sizeof(x)\par
+\f1\lang1049\par
+\f0\lang1033 write('Hello', z, x)\par
+End\f1\lang1049 .\par
+\par
+\'cf\'f0\'ee\'e3\'f0\'e0\'ec\'ec\'e0 \'e2\'fb\'e2\'e5\'e4\'e5\'f2\par
+\par
+\f0\lang1033 Hello 5 \f1\lang1049 4  // 5 - \'f7\'e8\'f1\'eb\'ee,  \'e0 4 - \'ea\'ee\'eb\'e8\'f7\'e5\'f1\'f2\'e2\'ee \'e1\'e0\'e9\'f2 \'e2 \'ef\'e5\'f0\'e5\'ec\'e5\'ed\'ed\'ee\'e9\par
+\par
+// \f0\lang1033 Ch - \f1\lang1049\'e2 \'ef\'e0\'ec\'ff\'f2\'e8 0, \'ed\'ee \'ed\'e5 \'e2\'fb\'e2\'e5\'e4\'e5\'ed\'e0 \'ed\'e0 \'fd\'ea\'f0\'e0\'ed.\par
+\par
+\par
+\tab\tab\tab\f0\lang1033 Asm\par
+\par
+\f1\lang1049\'ce\'e1\'fc\'ff\'e2\'eb\'e5\'ed\'e8\'ff \'c0\'f1\'f1\'e5\'ec\'e1\'eb\'e5\'f0\'ed\'fb\'f5 \'e2\'f1\'f2\'e0\'e2\'ee\'ea.\par
+\par
+\f0\lang1033 Asm\par
+end\par
+\f1\lang1049\par
+\f0\lang1033 // \f1\lang1049\'cf\'f3\'f1\'f2\'ee\'e9 \'e1\'eb\'ee\'ea \'e0\'f1\'f1\'e5\'ec\'e1\'eb\'e5\'f0\'ed\'ee\'e9 \'f4\'f3\'ed\'ea\'f6\'e8\'e8\par
+\par
+\'c2\'f2\'ee\'f0\'ee\'e9 \'e2\'e0\'f0\'e8\'e0\'ed\'f2 \f0\lang1033 Asm\par
+\par
+Asm name_of_asm()\par
+end\par
+\par
+// \f1\lang1049\'d2\'e0\'ea \'ec\'ee\'e6\'ed\'ee \'e4\'e5\'eb\'e0\'f2\'fc \'e8\'ec\'e5\'ed\'ed\'ee\'e2\'e0\'ed\'ed\'f3\'fe \'f4\'f3\'ed\'ea\'f6\'e8\'fe \'ed\'e0 \'c0\'f1\'f1\'e5\'ec\'e1\'eb\'e5\'f0\'e5.\par
+\par
+\f0\lang1033 Asm\par
+\f1\lang1049   \f0\lang1033 mov eax, bx\par
+  add cl, 5\par
+end\par
+\f1\lang1049\par
+\par
+\f0\lang1033 Asm My_Asm()\par
+  mov eax, bx\par
+  add cl, 5\par
+end\par
+\f1\lang1049\par
+\f0\lang1033    \f1\lang1049\'ce\'ef\'e5\'f0\'e0\'ed\'e4\'fb \'e0\'f1\'f1\'e5\'ec\'e1\'eb\'e5\'f0\'e0 \'e1\'e5\'e7 \'ea\'e0\'e2\'fb\'f7\'e5\'ea \'e8 \'f1\'ea\'ee\'e1\'ee\'f7\'e5\'ea.\par
+\'cf\'ee\'ea\'e0 \'ed\'e5 \'f0\'e5\'e0\'eb\'e8\'e7\'ee\'e2\'e0\'ed\'ee \'e2 \'e2\'e5\'f0\'f1\'e8\'e8 0.01.\par
+\par
+\tab\tab\tab\par
+\tab\tab\tab\tab\'c2\'c2\'ce\'c4 \'e8 \'c2\'db\'c2\'ce\'c4\par
+\par
+\'c2\'fb\'e2\'ee\'e4 - \f0\lang1033 Write()\par
+\par
+Write('Hello', z, x)\par
+\par
+\f1\lang1049\'cf\'e5\'f0\'e5\'e2\'ee\'e4 \'f1\'f2\'f0\'ee\'ea\'e8 \'ed\'e0 \'ed\'ee\'e2\'f3\'fe \f0\lang1033 - nel - New line\par
+\par
+    \f1\lang1049\'d0\'e0\'e1\'ee\'f2\'e0\'e5\'f2 \'e2\'e5\'e7\'e4\'e5 \'ea\'e0\'ea \'f1\'e0\'ec\'ee\'f1\'f2\'ee\'ff\'f2\'e5\'eb\'fc\'ed\'e0\'ff \'f4\'f3\'ed\'ea\'f6\'e8\'ff \par
+\par
+\par
+\f0\lang1033 Program My_name\par
+start func() \par
+mem int z, x\f1\lang1049  \par
+\f0\lang1033     \par
+z == \f1\lang1049 25\f0\lang1033\par
+\f1\lang1049\par
+\f0\lang1033 write('Hello', z, nel, x)\par
+End\f1\lang1049 .\par
+\par
+\'c2\'fb\'e2\'e5\'e4\'e5\'f2  \f0\lang1033 Hello 25\par
+         0\f1\lang1049\par
+\par
+\'c8\'eb\'e8 \'f2\'e0\'ea\par
+\par
+\f0\lang1033 Program My_name\par
+start func() \par
+mem int z, x\f1\lang1049  \par
+\f0\lang1033     \par
+z == \f1\lang1049 105\f0\lang1033\par
+\f1\lang1049\par
+\f0\lang1033 nel\f1\lang1049\par
+\f0\lang1033 write('Hello', z, nel, x)\par
+nel\par
+write('hi')\par
+End\f1\lang1049 .\par
+\par
+\'c2\'fb\'e2\'e5\'e4\'e5\'f2  \par
+\par
+// \'cf\'f3\'f1\'f2\'e0\'ff \'f1\'f2\'f0\'ee\'ea\'e0\par
+\f0\lang1033 Hello 105\f1\lang1049\par
+// \'cf\'f3\'f1\'f2\'e0\'ff \'f1\'f2\'f0\'ee\'ea\'e0\par
+\f0\lang1033 0\par
+\f1\lang1049 // \'cf\'f3\'f1\'f2\'e0\'ff \'f1\'f2\'f0\'ee\'ea\'e0\par
+\f0\lang1033 Hi\par
+\par
+\par
+            \f1\lang1049\'c2\'c2\'ce\'c4\par
+\f0\lang1033 IN(z)\par
+// \f1\lang1049\'ee\'e6\'e8\'e4\'e0\'e5\'f2 \'e2\'e2\'e5\'e4\'e5\'ed\'e8\'e5 \'e4\'e0\'ed\'ed\'fb\'f5 \'f1 \'ea\'eb\'e0\'e2\'e8\'e0\'f2\'f3\'f0\'fb \'e2 \'ef\'e5\'f0\'e5\'ec\'e5\'ed\'ed\'f3\'fe \f0\lang1033 z\f1\lang1049 ,  \'ef\'e5\'f0\'e5\'ec\'e5\'ed\'ed\'e0\'ff \'e4\'ee\'eb\'e6\'ed\'e0 \'e1\'fb\'f2\'fc \'e7\'e0\'f0\'e0\'ed\'e5\'e5 \'ee\'ef\'f0\'e5\'e4\'e5\'eb\'e5\'ed\'e0 \'e2 \'e1\'eb\'ee\'ea\'e5 \f0\lang1033 mem \f1\lang1049\'e3\'eb\'e0\'e2\'ed\'ee\'e9 \'f4\'f3\'ed\'ea\'f6\'e8\'e8.\f0\lang1033  \par
+\par
+\f1\lang1049\par
+\f0\lang1033                 \f1\lang1049\'d1\'ed\'ee\'e2\'e0 \'ef\'f0\'ee \'ce\'d1\'cd\'ce\'c2\'cd\'ce\'c9 \'c1\'cb\'ce\'ca \'ef\'f0\'ee\'e3\'f0\'e0\'ec\'ec\'fb\par
+\par
+\par
+\f0\lang1033 start func() \par
+End\f1\lang1049 .\par
+\par
+//  \'d2\'e0\'ea \'e2\'fb\'e3\'eb\'ff\'e4\'e8\'f2 \'f1\'e0\'ec\'e0\'ff \'ea\'ee\'f0\'ee\'f2\'ea\'e0\'ff \'ef\'f0\'ee\'f1\'f2\'e0\'ff \'ef\'f0\'ee\'e3\'f0\'e0\'ec\'ec\'fb - \'ee\'ed\'e8 \'ed\'e8\'f7\'e5\'e3\'ee \'ed\'e5 \'e4\'e5\'eb\'e0\'e5\'f2\par
+\par
+\par
+\tab\tab\tab\tab\'d1\'d2\'c5\'ca \'ef\'f0\'ee\'e3\'f0\'e0\'ec\'ec\'fb\par
+\par
+\'d1\'eb\'f3\'e6\'e5\'e1\'ed\'ee\'e5 \'f1\'eb\'ee\'e2\'ee \f0\lang1033 STACK \f1\lang1049\'ef\'e8\'f8\'e5\'f2\'f1\'ff \'e2 \'e3\'eb\'e0\'e2\'ed\'ee\'e9 \'f4\'f3\'ed\'ea\'f6\'e8\'e8 \'ef\'ee\'f1\'eb\'e5 \f0\lang1033 start func()   \f1\lang1049\'e8\'eb\'e8 \'ef\'ee\'f1\'eb\'e5 \f0\lang1033 mem\f1\lang1049\par
+\par
+\par
+\'cd\'e0\'ef\'f0\'e8\'ec\'e5\'f0\par
+\par
+\f0\lang1033 start func() \par
+stack 1000\par
+\par
+mem int z\par
+    int x\par
+\par
+   z == 5\par
+   in(x)\par
+   write('hello', z, x)\par
+End\f1\lang1049 .\par
+\par
+\'c4\'e0\'ed\'ed\'fb\'e5 \'f2\'e5\'ea\'f1\'f2 \'f1\'ee\'e7\'e4\'e0\'f1\'f2 \'ef\'f0\'ee\'e3\'f0\'e0\'ec\'ec\'f3, \'c7\'e0\'f0\'e5\'e7\'e5\'f0\'e2\'e8\'f0\'f3\'e5\'f2 \'d1\'f2\'e5\'ea \'ef\'f0\'ee\'e3\'f0\'e0\'ec\'ec\'fb \'ed\'e0 1000 \'c1\'c0\'c9\'d2, \'e7\'e0\'f0\'e5\'e7\'e5\'f0\'e2\'e8\'f0\'f3\'e5\'f2 \'e4\'e2\'e5 \'f6\'e5\'eb\'ee\'f7\'e8\'f1\'eb\'e5\'ed\'ed\'fb\'e5 \'ef\'e5\'f0\'e5\'ec\'e5\'ed\'ed\'fb\'e5 \'f0\'e0\'e7\'ec\'e5\'f0\'ee\'ec \'ef\'ee 4 \'e1\'e0\'e9\'f2\'e0 \'ea\'e0\'e6\'e4\'e0\'ff, \'ef\'ee\'f2\'ee\'ec \'ef\'f0\'e8\'f1\'e2\'ee\'e5\'f2 \'ef\'e5\'f0\'e5\'ec\'e5\'ed\'ed\'ee\'e9 \f0\lang1033 z \f1\lang1049\'e7\'ed\'e0\'f7\'e5\'ed\'e8\'e5 5, \'cd\'e0\'f7\'ed\'e5\'ec \'ee\'e6\'e8\'e4\'e0\'f2\'fc \'e2\'e2\'ee\'e4\'e0 \'e7\'ed\'e0\'f7\'e5\'ed\'e8\'e9 \'ee\'f2 \'ef\'ee\'eb\'fc\'e7\'ee\'e2\'e0\'f2\'e5\'eb\'ff \'f7\'e5\'f0\'e5\'e7 \'ea\'eb\'e0\'e2\'e8\'e0\'f2\'f3\'f0\'e5 \'f7\'e5\'f0\'e5\'e7 \'ee\'ef\'e5\'f0\'e0\'f2\'ee\'f0 \f0\lang1033 In\f1\lang1049 , \'ef\'f0\'e8\'f1\'e2\'ee\'e5\'f2 \'ee\'e4\'ed\'f3 \'ef\'e5\'f0\'e2\'f3\'fe \'f6\'e8\'f0\'f4\'f3 \'ef\'e5\'f0\'e5\'ec\'e5\'ed\'ed\'ee\'e9\f0\lang1033  x\f1\lang1049 ,  \'e8 \'e2\'fb\'e2\'e5\'e4\'e5\'f2 \'ed\'e0 \'fd\'ea\'f0\'e0\'ed \f0\lang1033 Hello 5 \f1\lang1049\'e8 \'ef\'ee\'f2\'ee\'ec \'c2\'e0\'f8\'e5 \'e7\'ed\'e0\'f7\'e5\'ed\'e8\'e5 \'e8 \'ef\'f0\'ee\'e3\'f0\'e0\'ec\'ec\'e0 \'e7\'e0\'e2\'e5\'f0\'f8\'e8\'f2\'f1\'ff \'ed\'e5 \'ee\'e6\'e8\'e4\'e0\'ff \'ef\'ee\'eb\'fc\'e7\'ee\'e2\'e0\'f2\'e5\'eb\'ff.\par
+\par
+\par
+\tab\tab\tab\tab\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\f0\lang1033\par
+  \f1\lang1049\par
+\par
+\f0\lang1033\par
+}
+ 
